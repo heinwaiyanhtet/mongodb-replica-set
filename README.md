@@ -21,7 +21,7 @@ Additionally, you can pass an env variable called `HOST` when running the contai
 Once ready, the replica-set can be accessed using the following connection string:
 
 ```shell
-mongodb://localhost:27017,localhost:27018,localhost:27019/?replicaSet=rs0&readPreference=primary&ssl=false
+mongodb://localhost:27017,localhost:27018,localhost:27019/maung_gyi?replicaSet=rs0&readPreference=primary&ssl=false
 ```
 
 If you're connecting from your host machine, you might need to set a new alias within `/etc/hosts`:
